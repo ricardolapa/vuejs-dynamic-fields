@@ -1,0 +1,25 @@
+{
+  "name": "vuejs-dynamic-fields",
+  "version": "1.0.0",
+  "description": "Dynamic fields to buid your forms",
+  "main": "index.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardolapa/vuejs-dynamic-fields.git"
+  },
+  "keywords": [
+    "vue.js",
+    "form",
+    "fields",
+    "ricardolapa"
+  ],
+  "author": "@ricardolapa <ricardo.j.lapa@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardolapa/vuejs-dynamic-fields/issues"
+  },
+  "homepage": "https://github.com/ricardolapa/vuejs-dynamic-fields#readme"
+}
