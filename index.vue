@@ -28,7 +28,7 @@
                         </span>
                     </div>
 
-                    <input v-if="field.type === 'text' || field.type === 'email' || field.type === 'password'"
+                    <input v-if="field.type === 'text' || field.type === 'email' || field.type === 'password' || field.type === 'hidden'"
                         :type="field.type"
                         :name="field.name"
                         :placeholder="field.placeholder"
