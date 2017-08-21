@@ -1,6 +1,9 @@
 # vuejs-dynamic-fields
 fields for forms construction
 
+## About this component
+For dynamically buid forms on VueJS. This
+
 ### Instalation
 npm install vuejs-dynamic-fields --save
 
