@@ -2,7 +2,7 @@
 
 A VueJs component for building dynamic form field or complete forms. With small json configuration or from an API builded on a backend, you create forms or partials of forms
 
-### Instalation and config
+### Installation and config
 ```
 npm install vuejs-dynamic-fields
 ```
