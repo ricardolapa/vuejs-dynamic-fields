@@ -5,20 +5,20 @@
 
             <label>{{ field.label }}</label>
 
-            <select v-if="field.type === 'select'" :name="field.name" :class="field.cssClass" v-model="field.name">
+            <select v-if="field.type === 'select'" :name="field.name" :class="field.cssClass">
                 <option v-if="field.options.length" v-for="option in field.options" :value="option">{{ option }}</option>
             </select>
 
             <div v-if="field.type === 'radio'" :class="field.cssClass">
                 <span v-for="option in field.options">
                     <label>
-                        <input type="radio" :name="field.name" :value="option" v-model="option">
+                        <input type="radio" :name="field.name" :value="option">
                         <span>{{ option }}</span>
                     </label>
                 </span>
             </div>
 
-            <input v-if="field.type === 'text' || field.type === 'email' || field.type === 'password'" :type="field.type" v-model="field.name" :name="field.name" :placeholder="field.placeholder" :class="field.cssClass">
+            <input v-if="field.type === 'text' || field.type === 'email' || field.type === 'password'" :type="field.type" :name="field.name" :placeholder="field.placeholder" :class="field.cssClass">
 
             <span v-if="field.type === 'html'" v-html="field.html" :class="field.cssClass"></span>
 
