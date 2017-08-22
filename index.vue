@@ -4,7 +4,7 @@
             <div class="form-section" v-for="field in fieldsOrderedBy">
                 <div :class="field.wrapperClass">
 
-                    <label v-if="showLabel">{{ field.label }}</label>
+                    <label v-if="field.showLabel">{{ field.label }}</label>
 
                     <select v-if="field.type === 'select'" :name="field.name" :class="field.cssClass" v-model="field.value">
                         <option v-if="field.options.length" v-for="option in field.options" :value="option" >{{ option }}</option>
@@ -118,7 +118,7 @@
     export default {
         name: 'dynamic-fields',
 
-        props: ['fields', 'orderOption', 'showLabel', 'fullForm'],
+        props: ['fields', 'orderOption', 'fullForm'],
 
         data() {
             return {
