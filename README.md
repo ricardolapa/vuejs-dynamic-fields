@@ -77,7 +77,7 @@ All fields can be arranged by any order. Just refer the property to orderBy when
 
 On the markup:
 ```
-<dynamic-fields :fullForm="true" :order="'order_id'"></dynamic-fields>
+<dynamic-fields :fullForm="true" :orderOption="'order_id'"></dynamic-fields>
 ```
 
 On the object
